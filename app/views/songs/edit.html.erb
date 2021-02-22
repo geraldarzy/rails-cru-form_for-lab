@@ -1,0 +1,14 @@
+<h1>Edita Song Form:</h1>
+
+<%=form_for @song do |f|%>
+    <%=f.label "Song name:"%>
+    <%=f.text_field :name%>
+
+    <%=f.label "Song artist_id:"%>
+    <%=f.text_field :artist_id%>
+
+    <%=f.label "Song genre_id:"%>
+    <%=f.text_field :genre_id%>
+
+    <%=f.submit%>
+<%end%>
